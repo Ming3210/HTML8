@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Pacifico&display=swap');
+
+.form{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 90px;
+    background-color: rgb(168, 168, 168);
+    justify-content: space-around;
+    align-items: center;
+}
+.f{
+    padding: 5px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    border: 0px solid black;
+    background-color: aqua;
+    border-radius: 8px;
+    cursor: pointer;
+    list-style: none;
+}
+.item-2{
+    font-family: "Caveat", cursive;
+}

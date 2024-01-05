@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600&display=swap');
+.bor{
+    border: 1px solid rgb(174, 172, 172);
+    width: 500px;
+    height: 700px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.ima-1{
+    object-fit: cover;
+    width: 480px;
+    height: 300px;
+    border-radius: 8%;
+}
+.ima-2{
+    margin-top: 10px;
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.t{
+    position: absolute;
+    top: 342px;
+    left: 76px;
+    font-family:  "Noto Sans", sans-serif;
+    font-size:20px;
+}
+.text{
+    font-weight: bold;
+    font-size: 23px;
+    font-family:  "Noto Sans", sans-serif;
+}
+.te{
+    font-size: 17px;
+    font-family:  "Noto Sans", sans-serif;
+}
+.bo{
+    border: 1px solid white;
+    width: 100px;
+    height: 35px;
+    border-radius: 8px;
+    position: absolute;
+    top: 40px;
+    left: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
